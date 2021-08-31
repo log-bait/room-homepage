@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+width: 100%;
+height: 100%;
+display: flex;
+}
+.homesection{
+    width: 70%;
+    height: 80vh;
+    background-image: url(/images/desktop-image-hero-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent{
+    padding: 80px;
+    width: 50%;
+    height: 80vh;
+}
+span{
+    letter-spacing: 6px;
+}
+.submenu{
+    background-color:rgba(74, 74, 63, 0.39); 
+    width: 100%; 
+    height: 100%; 
+    position:fixed; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+}
+.submenucontainer{
+    padding: 30px;
+    width: 100%; 
+    height: 100px; 
+    background-color: white; 
+    display: flex;
+}
+.submenucontainer>ul>li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.btns{
+    height: 40px;
+    display: flex;
+position: relative;
+top: 455px;
+right: 550px
+
+}
+.footer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+.leftsec{
+    width: 33%;
+    height: 100%;
+    background-image: url(/images/image-about-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.midsec{
+    width: 33%;
+    height: 100%;
+    padding:40px;
+}
+.rightsec{
+    width: 34%;
+    height: 100%;
+    background-image: url(/images/image-about-light.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@media screen and (max-width:768px) {
+    section{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        }
+        .homesection{
+            width: 100%;
+            height: 80vh;
+            background-image: url(/images/desktop-image-hero-1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .parent{
+            padding: 80px;
+            width: 100%;
+            height: 80vh;
+        }
+        .btns{
+            height: 40px;
+            display: flex;
+        position: relative;
+        top: -470px;
+        right: -686px
+        }
+        .footer{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .leftsec{
+            width: 100%;
+            height: 400px;
+            background-image: url(/images/image-about-dark.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .midsec{
+            width: 100%;
+            height: 400px;
+            padding:50px;
+        }
+        .rightsec{
+            width: 100%;
+            height: 400px;
+            background-image: url(/images/image-about-light.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+        }
+}
+@media screen and (max-width:425px) {
+    .parent{
+        padding: 40px;
+        width: 100%;
+        height: 80vh;
+    }
+    .btns{
+        height: 40px;
+        display: flex;
+    position: relative;
+    top: -470px;
+    right: -345px
+    }
+    
+}
+@media screen and (max-width:375px) {
+    .parent{
+        margin: 30px;
+        padding: 0px;
+        width: 100%;
+        height: 80vh;
+    }
+    .btns{
+        height: 40px;
+        display: flex;
+    position: relative;
+    top: -530px;
+    right: -290px
+    }
+}
+
+
+
+
+
+
+.attribution { font-size: 1rem; text-align: center; }
+.attribution a { color: hsl(69, 88%, 50%); }
